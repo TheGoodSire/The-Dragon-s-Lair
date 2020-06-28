@@ -2,7 +2,9 @@
 Repository for the Blinks Game Dragon's Lair 
 
 The Dragon's Lair
+
   Lead development by Spencer Jenik (TheGoodSire)
+  
   Original Game by Spencer Jenik
   
   6+ Blinks
