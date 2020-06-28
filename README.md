@@ -28,7 +28,7 @@ The Dragon's Lair
   8. The players current luck count is displayed by the three white lights on the treasure hunter blink.
   9. The Dragon has three attacking moves:
       A. Fireball - Orange light (Fire) moves quickly throughout the lair. Any player attached to an actively affected tile looses one luck.
-      B. Poison - Green light (Poison) moves slowly throughout the lair. Any player attached to an actively affected tile looses one luck.
+      B. Poison - Pink light (Poison) moves slowly throughout the lair. Any player attached to an actively affected tile looses one luck.
       C. Void - All light is sucked from the Lair, and players must collect tiles based on their memory. The incorrect matching penalty of one health still applies. 
   10. Dragon attacks get more frequent as the game progresses eventually resulting in the end of the game.  
   
