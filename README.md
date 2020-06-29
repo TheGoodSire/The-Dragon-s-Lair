@@ -26,7 +26,7 @@ The Dragon's Lair
   4. Each red (ruby) and green (emerald) collected gains the player 1 point, while each yellow (gold) collected gives the player 5 points.
   5. Yellow (Gold) treasures require the player to mine (be connected to them) for 3 seconds before awarding their points.
   6. Players collect treasure points until their luck runs out (all 3 luck lost).
-  7. One luck is lost by incorrectly connecting to a treausre or by being adversely affected by a dragon attack.
+  7. One luck is lost by incorrectly connecting to a treasure or by being adversely affected by a dragon attack.
   8. The player's current luck count is displayed by the three white lights on the treasure hunter blink.
   9. The Dragon has three attacking moves:
       A. Fireball - Orange light (Fire) moves quickly throughout the lair. Any player attached to an actively affected tile looses one luck.
