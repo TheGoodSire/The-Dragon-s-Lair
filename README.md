@@ -24,10 +24,10 @@ The Dragon's Lair
   2. Treasure hunter (player) blinks have three colored sides - Yellow (Gold), Red (Rubies), and Green (Emeralds).
   3. Players must match the correctly colored side of their blink to a treasure to score points.
   4. Each red (ruby) and green (emerald) collected gains the player 1 point, while each yellow (gold) collected gives the player 5 points.
-  5. Yellow (Gold) treasures require the play to mine (be connected to them) for 3 seconds before awarding their points.
+  5. Yellow (Gold) treasures require the player to mine (be connected to them) for 3 seconds before awarding their points.
   6. Players collect treasure points until their luck runs out (all 3 luck lost).
   7. One luck is lost by incorrectly connecting to a treausre or by being adversely affected by a dragon attack.
-  8. The players current luck count is displayed by the three white lights on the treasure hunter blink.
+  8. The player's current luck count is displayed by the three white lights on the treasure hunter blink.
   9. The Dragon has three attacking moves:
       A. Fireball - Orange light (Fire) moves quickly throughout the lair. Any player attached to an actively affected tile looses one luck.
       B. Poison - Pink light (Poison) moves slowly throughout the lair. Any player attached to an actively affected tile looses one luck.
