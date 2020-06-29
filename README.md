@@ -10,6 +10,8 @@ The Dragon's Lair
   6+ Blinks
   1+ Players
   
+  Background: You’ve come to the dragon’s lair with one goal in mind: To make your fortune plundering the vast treasures (Gold, Emeralds, Rubies) that await inside. There is, however, one problem. A fierce dragon awaits you and will not be easily parted from his treasure. How much can you collect before your luck runs out?
+
   Setup:
   1. Seperate out one blink per player to be treasure hunter (player) blinks and one blink to be the dragon.
   2. Triple click a blink to set to treasure hunter, long press to set blink to dragon (hold off until ready to start the game), double press to set back to lair tile.
