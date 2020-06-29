@@ -47,8 +47,11 @@ The Dragon's Lair
   
   Challenge Mode:
   *Additional dragon blinks can be added to scale the difficulty of the game up. If playing with multiple dragons, spread them throughout the lair evenly.
-  1 Dragon - Normal
+ 
+  1 Dragon  - Normal
+
   2 Dragons - Hard Mode 
+
   3 Dragons - Dragon Master
  
    --------------------
