@@ -13,7 +13,7 @@ The Dragon's Lair
   Setup:
   1. Seperate out one blink per player to be treasure hunter (player) blinks and one blink to be the dragon.
   2. Triple click a blink to set to treasure hunter, long press to set blink to dragon (hold off until ready to start the game), double press to set back to lair tile.
-  3. Arrange all remaining non-player (lair) blinks around the dragon in any configuration desired as long as each blink has one side open for connection.
+  3. Arrange all remaining non-player (lair) blinks around the dragon in any configuration desired as long as each blink has at least one side open for connection.
      Alt Setup - If only playing with 6-9 blinks, arrange blinks in a straight line with the dragon at the end.
   4. Long press the designated dragon blink to set role and start the game.
   
