@@ -4,7 +4,7 @@ Repository for the Blinks Game Dragon's Lair
 The Dragon's Lair
 
   Development by Spencer Jenik and Francisco Javier
-  
+  Original Artwork by Francisco Javier
   Original Game by Spencer Jenik
   
   6+ Blinks
