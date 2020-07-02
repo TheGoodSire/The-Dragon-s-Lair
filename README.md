@@ -3,7 +3,7 @@ Repository for the Blinks Game Dragon's Lair
 
 The Dragon's Lair
 
-  Lead development by Spencer Jenik (TheGoodSire)
+  Development by Spencer Jenik and Francisco Javier
   
   Original Game by Spencer Jenik
   
