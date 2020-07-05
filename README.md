@@ -3,6 +3,8 @@ Repository for the Blinks Game Dragon's Lair
 
 ![Dragon's Lair Game Art](https://github.com/TheGoodSire/The-Dragon-s-Lair/blob/master/Dragon's%20Lair%20Game%20Art.jpg)
 
+![Dragon's Lair Game Art](https://github.com/TheGoodSire/The-Dragon-s-Lair/blob/master/Dragon's%20Lair%20Instructions%20Comic%20Strip.jpg)
+
 The Dragon's Lair
 
   Development by Spencer Jenik and Francisco Javier
@@ -13,8 +15,6 @@ The Dragon's Lair
   
   6+ Blinks
   1+ Players
-  
-  ![Dragon's Lair Game Art](https://github.com/TheGoodSire/The-Dragon-s-Lair/blob/master/Dragon's%20Lair%20Instructions%20Comic%20Strip.jpg)
   
   Background: You’ve come to the dragon’s lair with one goal in mind: To make your fortune plundering the vast treasures (Gold, Emeralds, Rubies) that await inside. There is, however, one problem. A fierce dragon awaits you and will not be easily parted from his treasure. How much can you collect before your luck runs out?
 
