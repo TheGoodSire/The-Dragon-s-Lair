@@ -1,7 +1,7 @@
 # The-Dragon-s-Lair
 Repository for the Blinks Game Dragon's Lair 
 
-![Game Art](Dragon's Lair Game Art.jpg)
+![Dragon's Lair Game Art](https://github.com/TheGoodSire/The-Dragon-s-Lair/blob/master/Dragon's%20Lair%20Game%20Art.jpg)
 
 The Dragon's Lair
 
