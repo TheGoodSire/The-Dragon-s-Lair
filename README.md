@@ -1,7 +1,7 @@
 # The-Dragon-s-Lair
 Repository for the Blinks Game Dragon's Lair 
 
-
+![The Dragon's Lair](Dragon's Lair Game Art.jpg)
 
 The Dragon's Lair
 
