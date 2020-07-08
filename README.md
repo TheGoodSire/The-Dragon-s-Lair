@@ -1,11 +1,8 @@
-# The-Dragon-s-Lair
-Repository for the Blinks Game Dragon's Lair 
-
 ![Dragon's Lair Game Art](https://github.com/TheGoodSire/The-Dragon-s-Lair/blob/master/Dragon's%20Lair%20Game%20Art.jpg)
 
-![Dragon's Lair Game Art](https://github.com/TheGoodSire/The-Dragon-s-Lair/blob/master/Dragon's%20Lair%20Instructions%20Comic%20Strip.jpg)
 
-The Dragon's Lair
+
+# The-Dragon-s-Lair
 
   Development by Spencer Jenik and Francisco Javier
   
@@ -14,18 +11,22 @@ The Dragon's Lair
   Original Game by Spencer Jenik
   
   6+ Blinks
+  
   1+ Players
   
-  Background: You’ve come to the dragon’s lair with one goal in mind: To make your fortune plundering the vast treasures (Gold, Emeralds, Rubies) that await inside. There is, however, one problem. A fierce dragon awaits you and will not be easily parted from his treasure. How much can you collect before your luck runs out?
+# Background: 
+![Dragon's Lair Game Art](https://github.com/TheGoodSire/The-Dragon-s-Lair/blob/master/Dragon's%20Lair%20Instructions%20Comic%20Strip.jpg)
+  
+  You’ve come to the dragon’s lair with one goal in mind: To make your fortune plundering the vast treasures (Gold, Emeralds, Rubies) that await inside. There is, however, one problem. A fierce dragon awaits you and will not be easily parted from his treasure. How much can you collect before your luck runs out?
 
-  Setup:
+# Setup:
   1. Seperate out one blink per player to be treasure hunter (player) blinks and one blink to be the dragon.
   2. Triple click a blink to set to treasure hunter, long press to set blink to dragon (hold off until ready to start the game), double press to set back to lair tile.
   3. Arrange all remaining non-player (lair) blinks around the dragon in any configuration desired as long as each blink has at least one side open for connection.
      Alt Setup - If only playing with 6-9 blinks, arrange blinks in a straight line with the dragon at the end.
   4. Long press the designated dragon blink to set role and start the game.
   
-  Rules:
+# Rules:
   1. Treasures randomly spawn into the lair playspace for the players to collect.
   2. Treasure hunter (player) blinks have three colored sides - Yellow (Gold), Red (Rubies), and Green (Emeralds).
   3. Players must match the correctly colored side of their blink to a treasure to score points.
@@ -40,18 +41,18 @@ The Dragon's Lair
       C. Void - All light is sucked from the Lair, and players must collect tiles based on their memory. The incorrect matching penalty of one health still applies. 
   10. Dragon attacks get more frequent as the game progresses eventually resulting in the end of the game.  
   
-  Win Condition / End Game:
+# Win Condition / End Game:
   1. After a player has lost all of their luck, their blink changes over to score mode.
   2. In score mode, lights of different colors flash in quick succession followed by a several second gap.
   3. To determine your score, count the number of Gold flashes in the group and multiply by 100, and then red by 10 and green by 1. The sum of these numbers is your score.
   4. If playing single player, try to set and beat your high score.
   5. If playing competitively with multiple players, the player with the highest score when their luck runs out wins.
   
-  Resetting the Game:
+# Resetting the Game:
   1. Double click all treasure hunter (player) blinks and all dragon blinks to temporarily set them back to lair tiles. 
   2. Set up the game again following the provided setup rules above.
   
-  Challenge Mode:
+# Challenge Mode:
   *Additional dragon blinks can be added to scale the difficulty of the game up. If playing with multiple dragons, spread them throughout the lair evenly.
  
   1 Dragon  - Normal
