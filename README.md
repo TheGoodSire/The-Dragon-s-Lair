@@ -25,6 +25,7 @@
   3. Arrange all remaining non-player (lair) blinks around the dragon in any configuration desired as long as each blink has at least one side open for connection.
      Alt Setup - If only playing with 6-9 blinks, arrange blinks in a straight line with the dragon at the end.
   4. Triple click the designated dragon blink to set role and start the game.
+  
   RESET. Put together all the blinks you want to reset and hold any blinks to reset the whole board, you will se a white confirmation.
   
 # Rules:
