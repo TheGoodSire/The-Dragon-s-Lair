@@ -64,7 +64,7 @@
 #define Mining_Interval 3000 // time it takes to mine a gold treasure
 
 enum lairState {NN, NV, GN, GM, GP, GV, RN, RV, EN, EV, FIREBALL, POISON1, POISON2, POISON3, DRAGON, DRAGONF, DRAGONP, DRAGONV, TH, SCOREMODE, SCOREMODE2, RESET};
-byte lairState = NN; //21 Unique lair states
+byte lairState = NN; //22 Unique lair states
 
 
 int voidlairType = 0;
@@ -90,14 +90,8 @@ void setup() {
   // put your setup code here, to run once:
 randomize(); // make sure that the treasures are unique //ensure random number generation
 effectTimer.set(random(2000) + Reset_Interval); //sets initial wait for treasures to spawn
-}
-
-void resetLoop() { //Timer to reset the game
-  if (effectdelayTimer.isExpired()){
-        lairState = NN;  
-        effectTimer.set(random(2000) + Reset_Interval);
-        effectdelayTimer.set(250);
-  }
+effectdelayTimer.set(250);
+lairState = NN;
 }
 
 void loop() {
@@ -107,7 +101,7 @@ void loop() {
       lairState = RESET;
       effectdelayTimer.set(250);
     }
-    
+
   
     FOREACH_FACE(f) {
       if ( !isValueReceivedOnFaceExpired( f ) ) { // Have we seen an neighbor
@@ -122,18 +116,22 @@ void loop() {
   } 
   if (resetPressed == 1) {
       setColor(WHITE);
+        if (effectdelayTimer.isExpired()){
+          setup();
+        }
   }
-
   
   if (buttonDoubleClicked()) { //input to set blink to treasure hunter player tile
     Score = 0;
     tenScore = 0;
     hundredScore = 0;
+    Luck = 3;
     lairState = TH;
   }
 
   if (buttonMultiClicked()) { //input to set blink to be a dragon tile
     lairState = DRAGON;
+    dragonattackTime = 15000;
     dragonTimer.set(dragonattackTime);
   }
     
@@ -392,7 +390,6 @@ void dragonLoop() { // main dragon loop
     }
     if (newLair == 2) {
       effectTimer.set(Void_IntervalA);
-      
       lairState = DRAGONV;
     }
   }
@@ -479,12 +476,6 @@ void thLoop() { // main treasure hunter scoring and health tracking loop
     tenScore = tenScore - 10;
   }
   if (Luck == 0) {
-    hundredScoretemp = hundredScore;
-    tenScoretemp = tenScore;
-    Scoretemp = Score;
-    dragonTimer.set(5000);
-    effectTimer.set(250);
-    setColor (OFF);
     lairState = SCOREMODE;
   }
 }
@@ -527,6 +518,7 @@ void scoremodeDisplayLoop2() { // helper loop needed to effectively display the 
 //start of the graphics section
 
 void thDisplayLoop() { // loop used to display proper sides for matching and player luck score.
+  setColor(OFF);
   setColorOnFace(YELLOW, 0);
   setColorOnFace(RED, 2);
   setColorOnFace(GREEN, 4);
@@ -538,12 +530,9 @@ void thDisplayLoop() { // loop used to display proper sides for matching and pla
   if (Luck == 2) {
     setColorOnFace(WHITE, 1);
     setColorOnFace(WHITE, 3);
-    setColorOnFace(OFF, 5);
   }
   if (Luck == 1) {
     setColorOnFace(WHITE, 1);
-    setColorOnFace(OFF, 3);
-    setColorOnFace(OFF, 5);
   }
  }   
 
@@ -556,6 +545,7 @@ void goldDisplayLoop() { //display loop for non-mining gold tile
 }
 
 void gmDisplayLoop() { //animation for gold being mined
+  setColor(OFF);
   setColorOnFace(YELLOW, 0);
   if (effectTimer.getRemaining()>500) setColorOnFace(YELLOW, 1);
   if (effectTimer.getRemaining()>1000) setColorOnFace(YELLOW, 2);
@@ -585,12 +575,10 @@ void poisonDisplayLoop() { //display loop for lair tiles actively affected by th
 }
 
 void dragonDisplayLoop() { //dragon animation
+setColor(RED);
 setColorOnFace(dim(RED, animation.getRemaining()/8), 1);
 setColorOnFace(dim(RED, animation.getRemaining()/8), 3);
 setColorOnFace(dim(RED, animation.getRemaining()/8), 5);
-setColorOnFace(RED, 0);
-setColorOnFace(RED, 2);
-setColorOnFace(RED, 4);
 }
  
 void fireballpoisoncheck() { // helper loop used to save space in main lair state loops by checking for fireball and poison effects
