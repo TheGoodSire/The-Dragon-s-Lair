@@ -21,10 +21,11 @@
 
 # Setup:
   1. Seperate out one blink per player to be treasure hunter (player) blinks and one blink to be the dragon.
-  2. Triple click a blink to set to treasure hunter, long press to set blink to dragon (hold off until ready to start the game), double press to set back to lair tile.
+  2. Double click a blink to set to treasure hunter, think on the blink you want to be the dragon (but hold off until ready to start the game).
   3. Arrange all remaining non-player (lair) blinks around the dragon in any configuration desired as long as each blink has at least one side open for connection.
      Alt Setup - If only playing with 6-9 blinks, arrange blinks in a straight line with the dragon at the end.
-  4. Long press the designated dragon blink to set role and start the game.
+  4. Triple click the designated dragon blink to set role and start the game.
+  RESET. Put together all the blinks you want to reset and hold any blinks to reset the whole board, you will se a white confirmation.
   
 # Rules:
   1. Treasures randomly spawn into the lair playspace for the players to collect.
