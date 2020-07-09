@@ -26,7 +26,7 @@
      Alt Setup - If only playing with 6-9 blinks, arrange blinks in a straight line with the dragon at the end.
   4. Triple click the designated dragon blink to set role and start the game.
   
-  RESET. Put together all the blinks you want to reset and hold any blinks to reset the whole board, you will se a white confirmation.
+  RESET. Put together all the blinks you want to reset and hold any blinks to reset the whole board, you will see a white confirmation.
   
 # Rules:
   1. Treasures randomly spawn into the lair playspace for the players to collect.
