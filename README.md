@@ -51,7 +51,7 @@
   5. If playing competitively with multiple players, the player with the highest score when their luck runs out wins.
   
 # Resetting the Game:
-  1. Double click all treasure hunter (player) blinks and all dragon blinks to temporarily set them back to lair tiles. 
+  1. Put together all the blinks that you want to reset and long press any blink to reset the whole board, you will see a white confirmation.
   2. Set up the game again following the provided setup rules above.
   
 # Challenge Mode:
