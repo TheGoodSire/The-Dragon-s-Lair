@@ -668,6 +668,6 @@ void correctconnect() {
 //COMMUNICATION//
 /////////////////
 
-byte getLairState(byte data) { //BYTE BCDEF
+byte getLairState(byte data) { // BYTE BCDEF
   return (data & 31);
 }
