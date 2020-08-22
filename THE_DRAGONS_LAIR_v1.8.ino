@@ -527,9 +527,9 @@ void scoremodeDisplayLoop() { // loop used to display end game score
       setColorOnFace(GREEN, 4);
       Scoretemp = Scoretemp - 1;
     }
-  }
   effectTimer.set(250);
   lairState = SCOREMODE2;
+ } 
 }
 
 void scoremodeDisplayLoop2() { // helper loop needed to effectively display the end game score
