@@ -400,7 +400,7 @@ void dragonLoop() { // main dragon loop
       lairState = DRAGONF;
     }
     if (newLair == 1) {
-      effectTimer.set(Poison_Interval);
+      effectTimer.set(Poison_Delay);
       attackdelayTimer.set(Attack_Delay);
       lairState = DRAGONP;
     }
